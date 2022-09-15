@@ -6,6 +6,12 @@
     margin: 0;
 }
 
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -156,7 +162,7 @@ body{
     padding: 10px 25px;
     border-radius: 4px;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -168,7 +174,7 @@ body{
     background: #8f8f8f;
 }
 
-.cred{
+.credit{
     color: #8f8f8f;
     margin-top: 50px;
     text-align: center;
