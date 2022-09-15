@@ -169,11 +169,9 @@ body{
     color: #000;
     transition: .15s;
 }
-
-.button:hover{
-    background: #8f8f8f;
+.button:active{
+    transform: scale(.9);
 }
-
 .credit{
     color: #8f8f8f;
     margin-top: 50px;
